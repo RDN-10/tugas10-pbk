@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Login from '@/components/Login.vue';
 import Dashboard from '@/components/Dashboard.vue';
 import BarangList from '@/components/barang/BarangList.vue';
-import LaporanStok from '@/components/laporan/Laporanstok.vue';
+import Laporanstok from '@/components/laporan/Laporanstok.vue';
 import PenggunaList from '@/components/pengguna/PenggunaList.vue';
 import Profil from '@/components/Profil.vue';
 import Logout from '@/components/Logout.vue';
