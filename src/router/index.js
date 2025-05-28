@@ -2,15 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import Login from '@/components/Login.vue';
 import Dashboard from '@/components/Dashboard.vue';
-
 import BarangList from '@/components/barang/BarangList.vue';
-
-import LaporanStok from '../components/laporan/LaporanStok.vue'
-
+import LaporanStok from '@/components/laporan/LaporanStok.vue';
 import PenggunaList from '@/components/pengguna/PenggunaList.vue';
-
 import Profil from '@/components/Profil.vue';
 import Logout from '@/components/Logout.vue';
+
 
 const routes = [
   { path: '/', redirect: '/login' },
