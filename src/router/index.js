@@ -42,7 +42,7 @@ const routes = [
   {
     path: '/laporan',
     name: 'Laporan',
-    component: LaporanStok,
+    component: Laporanstok,
     meta: { requiresAuth: true },
   },
 
