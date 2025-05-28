@@ -5,7 +5,7 @@ import Dashboard from '@/components/Dashboard.vue';
 
 import BarangList from '@/components/barang/BarangList.vue';
 
-import LaporanStok from '@/components/laporan/LaporanStok.vue';
+import LaporanStok from '../components/laporan/LaporanStok.vue'
 
 import PenggunaList from '@/components/pengguna/PenggunaList.vue';
 
